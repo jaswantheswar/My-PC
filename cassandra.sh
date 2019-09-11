@@ -24,7 +24,7 @@ sudo sed -i 's/authorizer: AllowAllAuthorizer/authorizer: org.apache.cassandra.a
 
 sudo systemctl restart cassandra
 wait
-sleep 30
+sleep 20
 
 #creating user pradeep
 
